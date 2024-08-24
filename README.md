@@ -1,2 +1,3 @@
-# Home_work
- Just some home work from Uni
+this is just some basic home work from Uni 
+using OOP in Python
+very simple
