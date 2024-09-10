@@ -8,7 +8,7 @@ public class map {
         HashMap<String, String> Mymap = new HashMap<>();
         Mymap.put("Nome", "Joao");
         Mymap.put("Idade", "24");
-        Mymap.put("Altura", "0,80");
+        Mymap.put("Altura", "1,80");
         Mymap.put("Endereco", "Brasilia");
 
         System.out.println(Mymap);
