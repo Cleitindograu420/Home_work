@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
-public class Array_list {
+public class AL {
 
     public static void main(String[] args) {
         String nrElementos = JOptionPane.showInputDialog("Quantos numeros a lista vai ter");
@@ -24,7 +24,7 @@ public class Array_list {
         System.out.println(soma);
 
         int soma_par = 0;
-        for ()
+        for ( )
 
     }
 }

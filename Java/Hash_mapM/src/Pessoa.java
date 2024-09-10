@@ -1,7 +1,7 @@
 
 import java.util.HashMap;
 
-public class map {
+public class Pessoa {
 
     public static void main(String[] args) {
         int i = 0;
