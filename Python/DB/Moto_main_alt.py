@@ -64,24 +64,17 @@ while True:
                         VALUES('{}', '{}', '{}', '{}', '{}', '{}');'''.format(fabricante, nome, chassi, placa, ano_fabri, preço)
         cursor.execute(sql)
         conex.commit()
-        cursor.close()
-        conex.close()
-
+        
     elif op == 3:
         sql = '''DELETE FROM tb_Moto;'''
         cursor.execute(sql)
         conex.commit()
-        cursor.close()
-        conex.close()
-
 
     elif op == 4:
         c_moto = input("Digite o chassi da moto que deseja excluir: ")
         sql = f'''DELETE FROM tb_Moto WHERE chassi = '{c_moto}' ;'''
         cursor.execute(sql)
         conex.commit()
-        cursor.close()
-        conex.close()
 
     elif op == 5:
         break
